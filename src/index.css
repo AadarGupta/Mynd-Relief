@@ -1,0 +1,24 @@
+@font-face{
+  font-family: 'ModernSans';
+  src:local('ModernSans'), url(./fonts/ModernSans-Light.otf) format('opentype');
+ }
+  
+ @font-face{
+  font-family: 'ModernSans400';
+  src:local('ModernSans400'), url(./fonts/ModernSans400.ttf) format('truetype');
+ }
+  
+ body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'ModernSans', 'ModernSans400',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ }
+  
+ code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+ }
+ 
